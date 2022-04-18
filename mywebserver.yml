@@ -4,12 +4,9 @@
   tasks: 
    - name: I want to install webserver on ansible nodes
      apt:
-       name: "{{installwebserveronansiblenodes}}"
+       name: apache2
        state: present
 
-   - name: i want to start webserver on ansible nodes
-     service:
-        name: "{{webservivestartonansiblenodes}}"
-        state: started
+   
 
   
