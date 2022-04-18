@@ -9,7 +9,7 @@
 
    - name: i want to start webserver on ansible nodes
      servers:
-        name: apache2 
+        name: httpd
         state: started
-           
+
   
